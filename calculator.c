@@ -1,5 +1,6 @@
-
-    double first, second;
+#include<stdio.h>
+int main(){
+    double first, second,operator;
     printf("Enter an operator (+, -, *,): ");
     scanf("%c", &operator);
     printf("Enter two operands: ");
@@ -22,6 +23,7 @@
     default:
         printf("Error! operator is not correct");
     }
+    
 
     return 0;
 }
