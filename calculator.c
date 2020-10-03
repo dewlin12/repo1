@@ -1,4 +1,4 @@
-
+// Calculator
     double first, second;
     printf("Enter an operator (+, -, *,): ");
     scanf("%c", &operator);
